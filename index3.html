@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <style>
+            input[type=text] , select {
+                /* width: 100%; */
+                width: 10px 10px;
+                height: 5px 5px;
+                padding: 20px ;
+                margin: 20px;
+                display: inline-block;
+                border-radius:1px;
+                box-sizing: border-box;
+                border: 2px solid gray;
+                color: crimson;
+                cursor: pointer;
+                text-align: center;
+
+            }
+            input[type=submit]{
+                
+                background-color: gray;
+                color:rgb(94, 78, 78);
+                width: 40px 40px;
+                height: 5px 5px;
+                padding: 20px ;
+                margin: 20px;
+                border: none;
+                cursor: pointer;
+                
+                text-align: center;
+            }
+            input[type=submit]:hover{
+                background-color:dimgray;
+
+            }
+            div{
+                background-color:palegreen;
+                border-radius: 10px;
+                padding: 20px;  
+                height: 30px 30px;
+                width: 20px 20px; 
+                text-align: center;       
+            }
+            h1{
+                background-color: rgb(33, 102, 33);
+                color: white;
+                text-align: center;
+                width: 100%;
+                height:70px;
+                /* text-emphasis:initial; */
+                padding-top: 17px ;
+                font-style:italic;
+                text-transform: uppercase;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                /* font-size: x-large; */
+                text-shadow: 3px 3px 4px wheat;
+                /* box-shadow: 10px 10px 5px 10px lightblue; */
+           
+            }
+            </style>
+            </head>
+            
+            <body>
+                <h1>contant form</h1>
+                <div>
+                    <form>
+                    <label for="fname">first name:</label>
+                    <input type="text" id="fname" name="firstname:" placeholder="your name please...">
+                    </form>
+
+
+                    <form>
+                    <label for="lname">last name:</label>
+                    <input type="text" id="lname" name="last name:" placeholder="your last name please...">
+                    </form>  
+
+                    <form style="text-align: inherit">
+                    <lable for="email">email:</lable>
+                    <input type="text" id="email" name="email:" placeholder="your email">
+                    </form> 
+
+                    <form style="text-align: center">
+                        <lable for="country">country</lable>
+                        <select id="country" name="country">
+                            <option value="iran">iran</option>
+                            <option value="japane">japane</option>
+                            <option value="china">china</option>
+                        </select>
+                       </form>
+
+                       <form>
+                        <input type="submit" name="submit please">
+                    </form>
+                    
+
+
+                    
+
+
+                </div>
+
+            </body>
+    
+</html>
